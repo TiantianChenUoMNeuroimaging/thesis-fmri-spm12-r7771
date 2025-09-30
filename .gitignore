@@ -1,0 +1,53 @@
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- MATLAB temp/backup ----
+*.asv
+*.m~
+*.mex*
+*.autosave
+*.fig.bak
+
+# ---- Common binary/large files you don't want in code repo ----
+# (Keep scripts/configs small; do NOT commit raw data)
+*.zip
+*.7z
+*.tar
+*.gz
+*.rar
+
+# ---- SPM outputs to exclude (keep your batch .m and ROI masks) ----
+SPM.mat
+beta_*.nii
+con_*.nii
+spmT_*.nii
+spmF_*.nii
+ResMS.nii
+mask.nii
+rp_*.txt
+y_*.nii
+w*.nii
+sw*.nii
+s*.nii
+r*.nii
+u_*.nii
+*_seg8.mat
+sn.mat
+*.ps
+*.mnc
+*.hdr
+*.img
+
+# ---- Logs / temps ----
+*.tmp
+*.log
+*.bak
+
+# ---- Allowlist: keep our ROI masks and small example images ----
+!roi/
+!roi/*.nii
+!figures/
+!figures/*.png
+!figures/*.jpg
