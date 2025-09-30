@@ -1,0 +1,12 @@
+mask: roi/masks/PrimaryROImask.nii
+sha256: 81a64d2e4cb4d382ce0ee8cad6b125a2194408a1dae83a0142e6a8cb351b69b02
+nifti_header:
+  space: MNI
+  datatype: uint8
+environment:
+  matlab: R2024b
+  spm12: r7771
+  wfu_pickatlas: X.Y
+os: Windows 11 23H2 (Build 22631.5909), x64
+sources:
+  thesis_section: "A priori ROI set; Methods – ROI (PickAtlas/AAL); Figure 1 caption"
