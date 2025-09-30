@@ -1,0 +1,24 @@
+{
+  "name": "PrimaryROImask",
+  "tool": "WFU PickAtlas",
+  "tool_version": "X.Y",
+  "atlas": "AAL",
+  "space": "MNI",
+  "labels": [
+    "Amygdala_L","Amygdala_R",
+    "Hippocampus_L","Hippocampus_R",
+    "Cingulum_Ant_L","Cingulum_Ant_R",
+    "Insula_L","Insula_R",
+    "Angular_L","Angular_R",
+    "Frontal_Inf_Oper_L","Frontal_Inf_Oper_R",
+    "Frontal_Inf_Tri_L","Frontal_Inf_Tri_R",
+    "Frontal_Inf_Orb_L","Frontal_Inf_Orb_R",
+    "Frontal_Mid_L","Frontal_Mid_R"   // dlPFC 近似，用 AAL 中的中额回
+  ],
+  "morphology": { "dilation": 0, "erosion": 0 },
+  "combine": "union",
+  "binarize_threshold": 0.5,
+  "export": { "filename": "PrimaryROImask.nii", "datatype": "uint8" },
+  "created": "2025-09-30",
+  "notes": "A priori ROI mask for SVC and extractions, based on ACC/mPFC, anterior insula, TPJ/angular gyrus, amygdala, hippocampus, and lateral PFC (dlPFC via Frontal_Mid)."
+}
