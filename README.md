@@ -1,6 +1,6 @@
 # Thesis fMRI — SPM12 Batch Configs (MATLAB R2024b, SPM12 r7771)
 
-Open, runnable SPM12 batch scripts and ROI resources used in the thesis.  
+Open, runnable SPM12 batch scripts and ROI resources used in the thesis. 
 Includes preprocessing, first-level specification/estimation, second-level (group/covariate) models, contrast/report modules, and a primary ROI mask (AAL via WFU PickAtlas) with machine-readable recipes.
 
 ---
